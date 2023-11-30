@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Botique</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom right, #3498db, #2ecc71);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            align-items: center;
+        }
+
+        header {
+            background-color: rgba(0, 0, 0, 0.5);
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%; /* Full width */
+        }
+        .center-container {
+            flex: 1; /* Takes up remaining space */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+        }
+
+        .brand-container {
+            display: flex;
+            align-items: center;
+        }
+
+        .brand-container img {
+            padding-left: 10px;
+            height: 150px; /* Increased the height of the logo */
+            margin-right: 40px; /* Added right margin for spacing */
+        }
+
+        .brand-container h1 {
+            margin: 10;
+            font-size: 1.5em;
+        }
+
+        .center-container {
+            flex: 1; /* Takes up remaining space */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 50px;
+        }
+
+        .contact-container {
+            text-align: right;
+            padding: 10px; /* Added padding */
+        }
+
+        main {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            max-width: fit-content;
+            max-height: fit-content;
+            margin: 20px auto;
+            padding: 20px;
+            background: linear-gradient(to bottom right, #3498db, #2ecc71);
+            border-radius: 0px;
+            text-align: center;
+        }
+
+        .button-container a {
+        display: inline-block;
+        padding: 20px 90px; /* Adjusted padding values */
+        margin: 0 10px;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+        }
+
+        .button-container a + a {
+        margin-left: 10px; /* Added margin between buttons */
+        }
+
+
+        .button-container a:hover {
+            background-color: rgba(255, 255, 255, 0.6);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="brand-container">
+            <img src="oceanside.png" alt="Logo">
+        </div>
+        <div class="center-container">
+            <!-- New Container in the Center -->
+            <p>Botique Hotel Booking </p>
+        </div>
+        <div class="contact-container">
+            <h2>Botique Information</h2>
+            <p>123 Ocean View Street</p>
+            <p>Tamil Nadu, India</p>
+            <p>Email: info@botiquehotel.com</p>
+            <p>Phone: +123 456 7890</p>
+        </div>
+    </header>
+
+    <main>
+        <div class="button-container">
+            <a href="index2.html">Pictures</a>
+            <a href="index3.html">Booking Information</a>
+        </div>
+    </main>
+    
+</body>
+</html>
